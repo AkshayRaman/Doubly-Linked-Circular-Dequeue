@@ -7,7 +7,7 @@ This program implements a doubly linked circular dequeue (DLCDQ) using Java
 
 You can perform the following operations:
 
-Insertion (front and rear)
-Deletion (front and rear)
-Forward and reverse traversal (print the DLCDQ)
-Detailed printing (Show previous and next node data)
+Insertion (front and rear) <br>
+Deletion (front and rear) <br>
+Forward and reverse traversal (print the DLCDQ) <br>
+Detailed printing (Show previous and next node data) <br>
