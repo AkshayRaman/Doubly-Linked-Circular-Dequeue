@@ -115,10 +115,7 @@ class DoublyLinkedCircularDequeue
 			else
 			{
 				front = front.next;
-				
-				//Make circular
-				rear.next = front;
-				front.prev = rear;
+			    makeCircular();	
 			}
 			System.out.println(x+" was deleted from the front!");
 		}
@@ -146,10 +143,7 @@ class DoublyLinkedCircularDequeue
 			{
 				x = rear.data;
 				rear = rear.prev;
-				
-				//Make circular
-				rear.next = front;
-				front.prev = rear;
+			    makeCircular();	
 			}
 			System.out.println(x+" was deleted from the rear!");
 		}
